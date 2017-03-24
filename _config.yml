@@ -1,0 +1,25 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Mitch Keenan
+tagline:          'Software Engineer'
+description:      'Software Engineer'
+url:              http://mitchkeenan.com
+baseurl:          /
+
+resume:           #
+author:
+  name:           'Mitch Keenan'
+  url:            http://mitchkeenan.com
+
+version: 0.1
+
+paginate:         5
+paginate_path: "/posts/page:num/"
+
+repository: konamacona/konamacona.github.io
