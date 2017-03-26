@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Antic+Slab');
+
 .sidebar-about h1 {
-  font-family: '', sans-serif;
+  font-family: 'Antic Slab', serif;
+}
+
+#logo {
+  max-width: 65%;
+  margin: 10% auto;
 }
