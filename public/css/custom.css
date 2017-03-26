@@ -48,14 +48,24 @@
   width: 25%;
   height: 1em;
 }
+.sidebar-nav {
+  margin-bottom: 0;
+}
 
 /* Logo Changes */
 #logo {
+  display: block;
   max-width: 40%;
-  margin: 10% auto;
+  margin: 5% auto;
+}
+@media (max-height: 730px) and (min-width: 48em) {
+  #logo {
+    display: none;
+  }
 }
 @media (min-width: 48em) {
   #logo {
-    max-width: 65%;
+    max-width: 50%;
+    margin: 5% auto;
   }
 }
