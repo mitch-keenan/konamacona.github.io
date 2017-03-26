@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Posts
+title: All Posts
 ---
 
 <div class="posts">
@@ -12,9 +12,12 @@ title: Posts
       </a>
     </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <span class="post-date">{{ post.date | date_to_string }} in <a href="/{{ post.category }}">{{ post.category }}</a></span>
 
-    {{ post.content }}
+    {{ post.content | split:'<!--break-->' | first }}
+    {% if post.content contains '<!--break-->' %}
+        <a href="{{ post.url }}">Read more...</a>
+    {% endif %}
   </div>
   {% endfor %}
 </div>

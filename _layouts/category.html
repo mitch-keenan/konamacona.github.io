@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<h1 class="page-title">{{ page.title }}</h1>
+
+{% unless page.content == '' %}
+  <p>{{ page.content }}</p>
+{% endunless %}
+
+<hr>
+
+<div class="posts">
+  {% for post in site.categories[page.category] %}
+  <div class="post">
+    <h2 class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+
+    <span class="post-date">{{ post.date | date_to_string }}</span>
+
+    {{ post.content | split:'<!--break-->' | first }}
+    {% if post.content contains '<!--break-->' %}
+        <a href="{{ post.url }}">Read more...</a>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>

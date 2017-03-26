@@ -5,6 +5,8 @@ highlighter:      rouge
 # Permalinks
 permalink:        pretty
 
+paginate_per_category: true
+
 # Setup
 title:            Mitch Keenan
 tagline:          'Software Engineer'
@@ -21,11 +23,11 @@ author:
 version: 0.1
 
 paginate:         5
-paginate_path:    /posts/page:num/ /projects/page:num/
+paginate_path:    /posts/page:num/
 
 repository:       konamacona/konamacona.github.io
-
 gist:
   noscript: false
-
 github: [metadata]
+
+exclude: ['Gemfile', 'Gemfile.lock', 'LICENSE.md', 'README.md', 'CNAME', '.gitignore', '_config.yml']
