@@ -5,9 +5,14 @@
   font-family: 'Antic Slab', serif;
   font-size: 2rem;
 }
-@media (min-width: 48em) {
+@media (max-height: 730px) and (min-width: 48em) {
   .sidebar-about h1 {
-    font-size: 3.25rem;
+    font-size: 2.25rem;
+  }
+}
+@media (min-height: 730px) and (min-width: 48em) {
+  .sidebar-about h1 {
+    font-size: 3rem;
   }
 }
 
@@ -15,7 +20,7 @@
 .sidebar {
   padding: 1rem;
 }
-@media (min-width: 48em) {
+@media (min-height: 730px) and (min-width: 48em) {
   .sidebar {
     padding: 2rem 1rem;
   }
@@ -58,12 +63,12 @@
   max-width: 40%;
   margin: 5% auto;
 }
-@media (max-height: 730px) and (min-width: 48em) {
+@media (max-height: 550px) and (min-width: 48em) {
   #logo {
     display: none;
   }
 }
-@media (min-width: 48em) {
+@media (min-height: 730px) and (min-width: 48em) {
   #logo {
     max-width: 50%;
     margin: 5% auto;
