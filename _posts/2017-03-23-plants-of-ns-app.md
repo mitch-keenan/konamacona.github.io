@@ -10,7 +10,7 @@ tags: [mobile, iOS, swift, nodejs, jade, web]
 This was a term project I was assigned at Acadia University. The goal was to create an iOS app which presents the data contained in and mimics the functionality of the [Nova Scotia Plants](https://ojs.library.dal.ca/NSM/pages/view/Plants) book. Additionally a data entry tool was required for entering the book into a database for use.
 
 
-I was told that I shouldn't be aiming to complete the project, but to get a well documented start on it including database design, research, and code. The rest of the project was supposed to be completed by a summer student. Both the app and the data entry portal were considered feature complete when I passed them on the end of my time with the project.
+I was told that I shouldn't be aiming to complete the project, but to get a well documented start on it including database design, research, and code. The rest of the project was supposed to be completed by a summer student. Both the app and the data entry portal were considered feature complete when I passed them on at the end of my time with the project.
 
 <!--break-->
 
