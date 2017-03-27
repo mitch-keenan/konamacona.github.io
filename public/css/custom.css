@@ -63,7 +63,7 @@
   max-width: 40%;
   margin: 5% auto;
 }
-@media (max-height: 550px) and (min-width: 48em) {
+@media (max-height: 565px) and (min-width: 48em) {
   #logo {
     display: none;
   }
@@ -73,4 +73,16 @@
     max-width: 50%;
     margin: 5% auto;
   }
+}
+
+/* Google Slides embedded - needs a wrapping div with  */
+.slidescontainer {
+  position: relative;
+  width: 100%;
+  padding-bottom: 62.5%;
+  max-width: 720px;
+}
+.slides {
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
 }

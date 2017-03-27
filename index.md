@@ -13,7 +13,7 @@ title: Home
 
 I'm a software engineer from Nova Scotia, Canada. I've been working on [The Golf Club](http://www.hb-studios.com/portfolio-item/the-golf-club/) and it's sequel at [HB Studios](http://www.hb-studios.com/) since 2014.
 
-Welcome My Site. It's built using [Jekyll](https://jekyllrb.com/) and [Github Pages](https://pages.github.com/), and uses the theme [Hyde](http://hyde.getpoole.com/).
+Welcome to my site. It's built using [Jekyll](https://jekyllrb.com/) and [Github Pages](https://pages.github.com/), and uses the theme [Hyde](http://hyde.getpoole.com/).
 
 ## Contact
 
