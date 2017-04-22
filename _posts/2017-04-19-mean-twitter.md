@@ -14,6 +14,6 @@ This is still definitely a work in progress, I have a lot of features I'd like t
 * [Demo](https://mean-twitter.herokuapp.com) (May take a moment if it hasn't been accessed in a while.)
 * [Source](https://github.com/konamacona/mean-twitter)
 
-Or you deploy can your own copy:
+Or you can deploy your own copy:
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/konamacona/mean-twitter)
