@@ -7,7 +7,7 @@ tags: [web, javascript, angular, MEAN, mongodb, wip]
 
 ![An image of the app]({{ site.url }}/public/images/mean-twitter.png)
 
-I decided to expand my knowledge of web technologies by diving into [Angular 2](https://angular.io/), and [MongoDB](https://www.mongodb.com/) and creating a small twitter clone on a modified [MEAN Stack](https://en.wikipedia.org/wiki/MEAN_(software_bundle)) (Modified because I used Angular 2).
+I decided to expand my knowledge of web technologies by diving into [Angular 2](https://angular.io/), and [MongoDB](https://www.mongodb.com/) and creating a small twitter clone on the [MEAN Stack](https://en.wikipedia.org/wiki/MEAN_(software_bundle)).
 
 <!--break-->
 

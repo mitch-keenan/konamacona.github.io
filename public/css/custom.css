@@ -19,7 +19,12 @@
 /* Sidebar */
 .sidebar {
   padding: 1rem;
+  /* potential color change: Hunter Green
+   * Links should also be changed
+  background-color: #355E3B;
+  */
 }
+
 @media (min-height: 730px) and (min-width: 48em) {
   .sidebar {
     padding: 2rem 1rem;

@@ -17,7 +17,7 @@ Welcome to my site. It's built using [Jekyll](https://jekyllrb.com/) and [Github
 
 ## Contact
 
-You can usually find me driving around Nova Scotia; or if you're lazy:
+You can usually find me driving around Nova Scotia, but if you'd prefer the web:
 
 * [Github](https://github.com/konamacona)
 * [Facebook](https://www.facebook.com/mitchell.keenan)
