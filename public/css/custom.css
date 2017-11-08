@@ -23,6 +23,10 @@
    * Links should also be changed
   background-color: #355E3B;
   */
+
+  background-image: url('/public/images/bg6-min.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 @media (min-height: 730px) and (min-width: 48em) {
