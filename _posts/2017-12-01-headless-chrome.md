@@ -11,13 +11,13 @@ tags: [web, javascript, chrome, automation]
 
 I did a small presentation on [Headless Chrome](https://developers.google.com/web/updates/2017/04/headless-chrome) this week at work and just wanted to write up a small blog post version of it. In includes an introduction to Headless Chrome and a small tutorial on using the it's node API
 
-## What is Headless Chrome?
+### What is Headless Chrome?
 
 Headless chrome is a new(ish) feature of the chrome web browser which allows it to run without a *head*. This means that no graphical output is shown, and more importantly it is never even generated. This reduces the time normal browser actions take significantly.
 
 <!--break-->
 
-## What is Headless Chrome *for*?
+### What is Headless Chrome *for*?
 
 Headless chrome can be used for just about anything you can do with regular chrome, but I will mostly be using for the following:
 
@@ -25,11 +25,11 @@ Headless chrome can be used for just about anything you can do with regular chro
 * Automation - Automating tasks that must be done in a browser
 * Testing - Integration and even unit testing are easier than ever when using Headless Chrome
 
-## Why should I use Headless Chrome instead of *insert alternative here*?
+### Why should I use Headless Chrome instead of *insert alternative here*?
 
 Although we've all heard great things about *insert alternative here*, it probably [does not have the performance](https://hackernoon.com/benchmark-headless-chrome-vs-phantomjs-e7f44c6956c) of headless chrome, and if it does, it likely [isn't your users browser](https://www.netmarketshare.com/browser-market-share.aspx), and if it is then go use it.
 
-## Ways to lose your head - Command Line
+### Ways to lose your head - Command Line
 
 Chrome Headless can be run by passing the --headless flag when launching it from the command line, here are some examples. These assume you have an alias of `chrome` pointing to your chrome installation.
 
@@ -50,7 +50,7 @@ Chrome Headless can be run by passing the --headless flag when launching it from
 > chrome --headless --remote-debugging-port=9222 http://mitchkeenan.com
 ```
 
-## Ways to lose your head - Karma
+### Ways to lose your head - Karma
 
 [Karma](http://karma-runner.github.io/) is a testing framework for running your tests (in most testing frameworks) on real browsers. This is helpful if you're running integration tests or you want to make sure your unit test pass on the same compiler your users are using.
 
@@ -67,7 +67,7 @@ module.exports = function(config) {
 };
 ```
 
-## Ways to lose your head - Puppeteer
+### Ways to lose your head - Puppeteer
 
 [Puppeteer](https://github.com/GoogleChrome/puppeteer) is Google's official node API for Chrome Headless. It has a fantastic interface and great docs. This is how I've been using chrome headless. Google has set up a [demo](https://try-puppeteer.appspot.com/), which is nice but isn't a great example of a real use case. So I've written up a few examples of how to do some common tasks below. These all use the async/await syntax from ES7 so if you're not familiar [check it out](https://hackernoon.com/6-reasons-why-javascripts-async-await-blows-promises-away-tutorial-c7ec10518dd9).
 
@@ -197,6 +197,6 @@ const browser = await puppeteer.launch({
 });
 ```
 
-## Conclusion
+### Conclusion
 
 Headless Chrome is a fantastic way to get tests or browsing tasks done programmatically, try it out the next time you get tired of doing some repetitive task and want to automate it!
