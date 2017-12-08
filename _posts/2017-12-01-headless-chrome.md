@@ -106,8 +106,8 @@ await page.goBack();
 await page.goForward();
 
 // Click an element and wait for any events (or redirects) to complete
-// Note that the selector I passed in is the element that is clicked, this could
-//  be any selector you'd use with querySelector, getElementById or jQuery.
+// Note that the selector I passed in is the element that is clicked,
+// this could be any selector you'd use with querySelector or jQuery.
 // In this case it clicks the projects link and waits for it to load
 await page.click('.sidebar-nav-item[href="/projects/"]');
 ```
@@ -129,7 +129,7 @@ await page.pdf({ path: './path/to/target/file.pdf' })
 page.on('console', (...args) => console.log('PAGE LOG:', ...args));
 
 // Evaluate runs the function you pass it in the context of the page
-// This would console log the url, which would then get piped back to std out
+// This would console log the url, which now gets piped back to StdOut
 await page.evaluate(() => {
   // This is running in the browser context
   console.log(`url is ${location.href}`);
@@ -146,9 +146,9 @@ This is a small example, but I suggest you also check out the `page.$`, `page.$e
 // Go to the projects page
 await page.goto('http://mitchkeenan.com/projects/');
 
-// The $$eval command runs a querySelectAll for the selector you provide and
-//  evaluates the callback parameter with the resulting elements as an argument,
-//  returning whatever the callback returns.
+// The $$eval command runs a querySelectAll for the selector you
+//  provide and evaluates the callback parameter with the resulting
+//  elements as an argument, returning whatever the callback returns.
 const names = await page.$$eval('.post-title a', elements => {
   // This is running in the browser context
   return elements.map(el => el.innerHTML);
