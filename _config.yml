@@ -30,4 +30,7 @@ gist:
   noscript: false
 github: [metadata]
 
+plugins:
+  - jekyll-feed
+
 exclude: ['Gemfile', 'Gemfile.lock', 'LICENSE.md', 'README.md', 'CNAME', '.gitignore', '_config.yml']
