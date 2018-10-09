@@ -18,20 +18,16 @@
 
 /* Sidebar */
 .sidebar {
-  padding: 1rem;
-  /* potential color change: Hunter Green
-   * Links should also be changed
-  background-color: #355E3B;
-  */
+  padding: 0;
 
-  background-image: url('/public/images/bg6-min.jpg');
+  background: white;
   background-size: cover;
   background-position: center;
 }
 
-@media (min-height: 730px) and (min-width: 48em) {
+@media (max-width: 767px) {
   .sidebar {
-    padding: 2rem 1rem;
+    position: relative;
   }
 }
 
@@ -94,4 +90,41 @@
 .slides {
   position: absolute;
   top: 0; bottom: 0; left: 0; right: 0;
+}
+
+#maze-backing, #canvas {
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.imageBackground {
+  background-image: url('/public/images/bg6-min.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+  #logo {
+    margin-top: 0;
+  }
+
+  .sidebar {
+    padding-top: 5%;
+    background: none;
+  }
+}
+
+#canvas {
+  background: black;
 }

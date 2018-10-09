@@ -13,7 +13,7 @@ title: Home
 
 I'm a software engineer from Nova Scotia, Canada. I've been working as a web developer at [REDspace](http://www.redspace.com) since September 2017. Before that I worked on [The Golf Club](http://www.hb-studios.com/portfolio-item/the-golf-club/) and it's sequel at [HB Studios](http://www.hb-studios.com/).
 
-Welcome to my site. It's built using [Jekyll](https://jekyllrb.com/) and [Github Pages](https://pages.github.com/), and uses the theme [Hyde](http://hyde.getpoole.com/).
+Welcome to my site. It's built using [Jekyll](https://jekyllrb.com/) and [Github Pages](https://pages.github.com/), and uses the theme [Hyde](http://hyde.getpoole.com/). The backround in the menu area is using my [mazetoy]({{ site.url }}/projects/2017/03/17/maze-toy/) maze visualisation project.
 
 ## Contact
 
