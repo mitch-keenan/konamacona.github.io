@@ -23,3 +23,15 @@ You can usually find me driving around Nova Scotia, but if you'd prefer the web:
 * [Facebook](https://www.facebook.com/mitchell.keenan)
 * [LinkedIn](https://www.linkedin.com/in/mitch-keenan/)
 * [mail@mitchkeenan.com](mailto:mail@mitchkeenan.com)
+
+## Recent Posts
+
+<div>
+  {% for post in site.posts limit:3 %}
+  <div>
+    <h4>
+      <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: '%b %d, %Y' }}
+    </h4>
+  </div>
+  {% endfor %}
+</div>
