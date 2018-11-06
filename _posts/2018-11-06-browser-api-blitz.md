@@ -5,7 +5,7 @@ category: blog
 tags: [web, APIs, frontend]
 ---
 
-# Browser APIs Tech Share
+![Henri Helvetica's Title Card](http://mitchkeenan.com/apisTechshare/titleCard.png)
 
 I did up this presentation at work this week and figured I'd copy the README in as a blog post, here it is in all it's glory!
 
@@ -36,8 +36,6 @@ Index:
 ---
 
 ## Planet of the APIs
-
-![Henri Helvetica's Title Card](http://mitchkeenan.com/apisTechshare/titleCard.png)
 
 Original Presentation by Henri Helvetica ([@HenriHelvetica](https://twitter.com/HenriHelvetica)) at Web Unleashed.
 
