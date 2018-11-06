@@ -31,6 +31,8 @@ Index:
    - [Timers 3: User Timing API](#timers-3-user-timing-api)
  - [Resources](#resources)
 
+<!--break-->
+
 ---
 
 ## Planet of the APIs
