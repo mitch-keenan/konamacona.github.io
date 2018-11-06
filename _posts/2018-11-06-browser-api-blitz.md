@@ -11,6 +11,8 @@ I did up this presentation at work this week and figured I'd copy the README in 
 
 View the [slides](http://mitchkeenan.com/apisTechshare), the [repo](https://github.com/konamacona/apisTechshare), or see below for the notes.
 
+<!--break-->
+
 ## Browser API Blitz
 
 Index:
@@ -30,8 +32,6 @@ Index:
    - [Timers 2: performance.now()](#timers-2-performancenow)
    - [Timers 3: User Timing API](#timers-3-user-timing-api)
  - [Resources](#resources)
-
-<!--break-->
 
 ---
 
