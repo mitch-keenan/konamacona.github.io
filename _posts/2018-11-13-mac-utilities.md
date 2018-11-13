@@ -10,9 +10,7 @@ tags: [systems, mac, utilities]
 
 I made this presentation at work this week on Mac productivity utilities and figured I'd do it up as a quick blog post.
 
-You can view the [slides](http://mitchkeenan.com/utilitiesTechshare), the [repo](https://github.com/konamacona/utilitiesTechshare), or see below for the list.
-
-Without further ado, Here's the list:
+You can view the [slides](http://mitchkeenan.com/utilitiesTechshare), the [repo](https://github.com/konamacona/utilitiesTechshare), or see below for the list with a lot more detail:
 
 <!--break-->
 
@@ -32,9 +30,7 @@ Without further ado, Here's the list:
 
 >[Flux] makes the color of your computer's display adapt to the time of day, warm at night and like sunlight during the day.
 
-I am addicted to Flux and other "night-mode" apps that filter out blue-light. I run them in 'all the time' mode and always at 4200K if the option is there. Im my opinion, unless you do color-sensitive work, you should be using something like flux all the time.
-
-I dare you to download this and turn it on to 4200K, work for a while and let your eyes get used to it, then try the 'disable for an hour' option to turn it off. I bet that you will have an immediate negative reaction to the blue-light coming back. This took me from having head-aches daily to almost never.
+I am addicted to Flux and other "night-mode" apps that filter out blue-light. I run them in 'all the time' mode and always at 4200K if the option is there. In my opinion, unless you do color-sensitive work often, you should be using something like flux.
 
 As a side note it's hard to capture the effect, it's automatically disabled anytime something is recording or snapshotting your screen.
 
@@ -66,7 +62,7 @@ Get it [here](http://vanilla.wolves.fm/r/HkckMcuTX)
 
 >Divvy is an entirely new way of managing your workspace. It allows you to quickly and efficiently “divvy up” your screen into exact portions.
 
-I use Divvy heavily, it allows me to quickly and easily move programs to where I want them. It has an extremely easy to use key-bind creator and is also available on windows.
+I use Divvy heavily, it allows me to quickly and easily move programs to where I want them. It has an extremely easy to use key-bind creator and is also available on windows. My only complaint is that you can't export your keybinding configuration.
 
 Get it [here](http://mizage.com/divvy/).
 
@@ -76,7 +72,7 @@ Get it [here](http://mizage.com/divvy/).
 
 >Never accidentally quit an app again.
 
-CommandQ changes the behaviour of `⌘Q` on Mac. Instead of immediately closing the application, you must hold the command for a (configurable) amount of time before it closes. It also shows a warning on the screen showing how long you have to hole it for. You can even add whitelist or blacklist of apps you want it enabled for.
+CommandQ changes the behaviour of `⌘Q` on Mac. Instead of immediately quitting the application, you must hold the command for a (configurable) amount of time before it will quit. It also shows a warning on the screen showing the remaining time until it will quit the app. You can even add whitelist or blacklist of apps you want it enabled for.
 
 Get it [here](https://clickontyler.com/commandq/)
 
@@ -86,7 +82,7 @@ Get it [here](https://clickontyler.com/commandq/)
 
 >Picture in Picture for your Mac
 
-Fenetré allows you to open an always-on-top window containing any webpage or app. It allows variable opacity for this window and also can hide an area surrounding your cursor (what's happening in the image) so that you can access content behind the window. This is extremely useful for doing video courses, and general multi-tasking.
+Fenetré allows you to open an always-on-top window containing any webpage or app. It allows variable opacity for this window and also can hide an area surrounding your cursor (This is what's happening in the image above) so that you can access content behind the window. It's been is extremely useful for doing video courses, and general multi-tasking.
 
 Get it [here](https://xn--fent-ipa.re/).
 
