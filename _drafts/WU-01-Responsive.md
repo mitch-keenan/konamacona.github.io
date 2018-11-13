@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Web Unleashed: Responsive
+title: Web Unleashed Responsive Design
 category: blog
 tags: [web, design, WU2018, accessibility]
 ---
@@ -35,7 +35,7 @@ This is important for accessibility and usablity reasons. Users who are not navi
 
 >"Supporting doesn't mean giving the same experience"
 
-Ethan used the following example from [The Guardian](#)'s home page to illustrate his next point. The component uses `display: flex;` in browsers which support it but it doesn't fall apart or use complicated fallbacks to re-create the same visual order when `flex` isn't supported. It's flex-less state is simple and still sufficient to convey it's message. Designing in this way, and looking at how your site appears with css features like `flex` turned off can assist in making your site more accessible and usable to all users.
+Ethan used the following example from [The Guardian](#)'s home page to illustrate his next point. The component uses `display: flex;` in browsers which support it but it doesn't fall apart or use complicated fallbacks to re-create the same visual order when `flex` isn't supported. It's flex-less state is simple and still sufficient to convey it's message. Designing in this way, and looking at how your site appears with css features like `flex` turned off can assist in making your site more accessible and usable to all users. The is a great example of progressive enhancement.
 
 // TODO: Insert guardian example comparison
 
