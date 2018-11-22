@@ -11,13 +11,13 @@ paginate_per_category: true
 title:            Mitch Keenan
 tagline:          'Software Engineer'
 description:      'Software Engineer'
-url:              http://mitchkeenan.com
+url:              https://mitchkeenan.com
 baseurl:          /
 
 resume:           #
 author:
   name:           'Mitch Keenan'
-  url:            http://mitchkeenan.com
+  url:            https://mitchkeenan.com
   email:          mail@mitchkeenan.com
 
 version: 0.1
