@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Wordpress Debugging: PHP Logs
+title: Wordpress Debugging - PHP Logs
 layout: post
 category: blog
 tags:
@@ -8,6 +8,8 @@ tags:
   - php
   - wordpress
 ---
+
+
 ![Image of an frustrated dev](https://images.unsplash.com/photo-1456406644174-8ddd4cd52a06?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1948&q=80)
 
 Very quick one, more of a note to self that I can reference in the future. In order to debug php on a wordpress site, do the following:
