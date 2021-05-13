@@ -1,5 +1,7 @@
 ---
-published: false
+---
+layout: post
+title: Wordpress Debugging: PHP Logs
 layout: post
 category: blog
 tags:
