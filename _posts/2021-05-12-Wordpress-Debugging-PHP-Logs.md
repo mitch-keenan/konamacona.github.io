@@ -1,5 +1,4 @@
 ---
----
 layout: post
 title: Wordpress Debugging: PHP Logs
 layout: post
