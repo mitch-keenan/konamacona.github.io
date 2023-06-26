@@ -5,24 +5,15 @@ title: Home
 
 <h1 class="page-title">Howdy!</h1>
 
-<!--
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
--->
+I'm a web-focused software developer from Nova Scotia, Canada. I build world-class digital products for exciting clients with [Lazer Technologies](https://www.lazertechnologies.com/)!
 
-I'm a software engineer and team lead from Nova Scotia, Canada. Since 2017 I've been building awesome products at [REDspace](http://www.redspace.com) where I have specialized in React, Golang, Node, and vanilla JS. Before that I worked on [The Golf Club](http://www.hb-studios.com/portfolio-item/the-golf-club/) and it's sequel at [HB Studios](http://www.hb-studios.com/).
-
-Welcome to my site. It's built using [Jekyll](https://jekyllrb.com/) and [Github Pages](https://pages.github.com/), and uses the theme [Hyde](http://hyde.getpoole.com/). The backround in the menu area is using my [mazetoy]({{ site.url }}/projects/2017/03/17/maze-toy/) maze visualisation project.
+Welcome to my site. The background in the menu area is using my [mazetoy]({{ site.url }}/projects/2018/03/17/maze-toy/) maze visualization project.
 
 ## Contact
 
-You can usually find me driving around Nova Scotia, but if you'd prefer the web:
-
-* [Github](https://github.com/konamacona)
-* [Facebook](https://www.facebook.com/mitchell.keenan)
+* [Github](https://github.com/mitch-keenan)
 * [LinkedIn](https://www.linkedin.com/in/mitch-keenan/)
-* [mail@mitchkeenan.com](mailto:mail@mitchkeenan.com)
+* [mk@mitchkeenan.com](mailto:mk@mitchkeenan.com)
 
 ## Recent Posts
 
